@@ -1,6 +1,5 @@
 # Cross-lingual Transfer Learning for Toxic Comment Detection
 
+## Abstract
 
-```python
-
-```
+### The Transformer model, which opens a door in the field of natural language processing, makes this field has another significant further step. It allows the model to better understand the relationship in the word. And the model architecture extends many language models, such as cross-lingual model XLM, XLM-R, and these models have achieved good results in various tasks. In the this paper, we proved that other high-resource languages can be used to make up for the data in low-resource languages. We take the prediction of whether the comment is a toxic message as an example. We use the English data released by the Jigsaw Multilingual Toxic Comment Classification competition and the comment on the PTT Hate board as the input training set. We want the model to predict toxic comment in Chinese, and the data in English is much larger than that in Chinese. We divide the prediction results into three categories: only use English data to fine-tune the model, fine-tune the model with Chinese data, and the last is combine the two data and fine-tune the model. We found that the training with English data has the best accuracy score of $75.9\%$ because of the large amount of data, while the overall accuracy score that mixed data has a higher score of $88.3\%$. In general, we can make up for the lack of low-resource languages through cross-lingual models, and have another way to solve low-resource languages problem.
